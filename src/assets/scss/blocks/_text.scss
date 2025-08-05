@@ -1,0 +1,21 @@
+.text {
+    &__h1 {
+        text-align: center;
+        margin-top: 24px;
+        margin-bottom: 32px;
+        & span {
+            outline: 3px dashed red;
+            outline-offset: 2px;
+            border-radius: 10px;
+        }
+    }
+    &__h2 {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+    &__description {
+        text-align: center;
+        text-decoration: underline;
+        color: crimson;
+    }
+}
