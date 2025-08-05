@@ -1,0 +1,11 @@
+// import now
+//
+// Если вы импортируете этот модуль напрямую, он немедленно выведет весь CSS-код
+//, необходимый для нормализации элементов HTML по умолчанию во всех браузерах.
+//
+// ```
+// @import "normalize/import-now.scss";
+// ```
+@use "./normalize-mixin" as *;
+@use "../normalize" as *;
+@include normalize();
